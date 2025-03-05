@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #0064eb;
+  padding: 1rem 2.5rem;
+}
+
+.headerLogo {
+  margin: 0 1.5rem 0 2.5rem;
+}
+
+.headerSearch {
+  display: flex;
+  align-items: center;
+  max-width: 32rem;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.searchImg {
+  margin-right: 0.7rem;
+}
+
+.searchInput {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none;
+  outline: none;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .headerLogo {
+    margin: 0 1.5rem 0 0;
+  }
+}

@@ -1,0 +1,63 @@
+.blockuser {
+  padding: 2.5rem 3rem 0 3.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  max-width: 17.5rem;
+  width: 100%;
+  margin-bottom: 1.8rem;
+}
+
+.avatarname {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 0.8rem;
+}
+
+.username {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #0064eb;
+}
+
+.userInfo {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.infoText {
+  display: flex;
+  align-items: center;
+}
+
+.infoText:first-child {
+  margin-right: 1rem;
+}
+
+.infoImg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .blockuser {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+  .userInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoText:first-child {
+    margin: 0 0 0.5rem 0;
+  }
+}

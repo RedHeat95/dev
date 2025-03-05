@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex: 1;
+  background-color: #e5e5e5;
+}
+
+.mainWrraper {
+  max-height: 43.5rem;
+  height: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.mainBlock {
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .mainWrraper {
+    max-height: 100%;
+    height: min-content;
+    padding: 2.5rem 1rem 1rem 1rem;
+  }
+
+  .mainBlock {
+    flex-direction: column;
+  }
+}

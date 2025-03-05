@@ -1,0 +1,22 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  max-width: 16rem;
+  width: 100%;
+}
+
+.emptyStateImg {
+  margin-bottom: 1.5rem;
+}
+
+.emptyStateText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  color: #808080;
+}

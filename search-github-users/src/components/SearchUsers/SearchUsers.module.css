@@ -1,0 +1,22 @@
+.searchUsers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  max-width: 14rem;
+  width: 100%;
+}
+
+.searchUsersImg {
+  margin-bottom: 1.5rem;
+}
+
+.searchUsersText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  color: #808080;
+}

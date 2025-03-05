@@ -1,0 +1,26 @@
+.cardReposiroty {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cardTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-decoration: none;
+  word-wrap: break-word;
+  color: #0064eb;
+}
+
+.cardText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  word-wrap: break-word;
+  color: #000000;
+  margin-top: 1rem;
+}
